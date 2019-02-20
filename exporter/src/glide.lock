@@ -1,0 +1,54 @@
+hash: a0f954031175d1607bcd9738671ea951b41056867260e691cabfeb2f19aa88ea
+updated: 2019-01-19T15:39:22.318333+01:00
+imports:
+- name: github.com/beorn7/perks
+  version: 3a771d992973f24aa725d07868b467d1ddfceafb
+  subpackages:
+  - quantile
+- name: github.com/go-resty/resty
+  version: 0ecc38d58bec7c3a6c001c15e43a88e67e37ced1
+- name: github.com/golang/protobuf
+  version: b4deda0973fb4c70b50d226b1af49f3da59f5265
+  subpackages:
+  - proto
+- name: github.com/google/logger
+  version: 324a7c096a0d1041e2766b42187908af70e4f723
+- name: github.com/jessevdk/go-flags
+  version: 5de817a9aa209ed35a164cb04aec82b7df1a47a6
+- name: github.com/matttproud/golang_protobuf_extensions
+  version: c12348ce28de40eed0136aa2b644d0ee0650e56c
+  subpackages:
+  - pbutil
+- name: github.com/prometheus/client_golang
+  version: 26e258bb9c9a94c26d4a46ff302ec7e855b82e10
+  subpackages:
+  - prometheus
+  - prometheus/internal
+  - prometheus/promhttp
+- name: github.com/prometheus/client_model
+  version: 5c3871d89910bfb32f5fcab2aa4b9ec68e65a99f
+  subpackages:
+  - go
+- name: github.com/prometheus/common
+  version: 41aa239b4cce3c56ab88fc366ae8b0a6423fa239
+  subpackages:
+  - expfmt
+  - internal/bitbucket.org/ww/goautoneg
+  - model
+- name: github.com/prometheus/procfs
+  version: 185b4288413d2a0dd0806f78c90dde719829e5ae
+  subpackages:
+  - internal/util
+  - nfs
+  - xfs
+- name: golang.org/x/net
+  version: 0ed95abb35c445290478a5348a7b38bb154135fd
+  subpackages:
+  - publicsuffix
+- name: golang.org/x/sys
+  version: 11f53e03133963fb11ae0588e08b5e0b85be8be5
+  subpackages:
+  - windows
+  - windows/registry
+  - windows/svc/eventlog
+testImports: []
